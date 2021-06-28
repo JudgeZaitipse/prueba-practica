@@ -10,7 +10,6 @@ class factura extends Model
     protected $fillable = ['cliente_id','vehiculo_id','estado_id','id_usuario'];
     protected $guarded = ['id'];
 
-
     // relaciones 
     public function estado()
     {
